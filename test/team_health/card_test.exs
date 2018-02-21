@@ -3,7 +3,6 @@ defmodule TeamHealthTest do
   alias TeamHealth.Card
 
   test "all returns list of Cards" do
-    assert [_] = Card.all
-    assert %Card{} = List.first(Card.all)
+    assert [%Card{}|_] = Card.all
   end
 end
