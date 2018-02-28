@@ -1,4 +1,4 @@
-defmodule TeamHealthTest do
+defmodule TeamHealthTest.Card do
   use ExUnit.Case
   alias TeamHealth.Card
 
